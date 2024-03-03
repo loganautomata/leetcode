@@ -7,7 +7,7 @@ Output output;
 Solution solution;
 
 int main(int, char**){
-    vector<int> nums = {3, 2, 4};
+    vector<int> nums = {3, 3};
     int target = 6;
 
     output.printfArr(solution.twoSum(nums, target));
