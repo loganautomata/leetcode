@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/logan/Documents/Code/leetcode/cpp/build",
-  "command": "/usr/bin/c++  -I/home/logan/Documents/Code/leetcode/cpp/include  -std=c++17  -std=c++17 -g -ggdb -O0 -Wall -Wno-unused-function -fpic -fPIC -D_DEBUG -o CMakeFiles/leetcode.dir/src/main.cpp.o -c /home/logan/Documents/Code/leetcode/cpp/src/main.cpp",
-  "file": "/home/logan/Documents/Code/leetcode/cpp/src/main.cpp"
-}
-]
