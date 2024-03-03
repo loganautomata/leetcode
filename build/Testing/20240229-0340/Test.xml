@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20240229-0340-Experimental"
+	Name="m5"
+	Generator="ctest-3.25.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="12.2.0"
+	OSName="Linux"
+	Hostname="m5"
+	OSRelease="6.1.0-18-amd64"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Debian 6.1.76-1 (2024-02-01)"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="104"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="975"
+	TotalPhysicalMemory="12841"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1788.46"
+	>
+	<Testing>
+		<StartDateTime>Feb 29 21:39 CST</StartDateTime>
+		<StartTestTime>1709213983</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 29 21:39 CST</EndDateTime>
+		<EndTestTime>1709213983</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

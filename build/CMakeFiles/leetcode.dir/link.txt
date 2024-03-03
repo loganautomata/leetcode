@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17  -std=c++17 -g -ggdb -O0 -Wall -Wno-unused-function -fpic -fPIC -D_DEBUG CMakeFiles/leetcode.dir/src/main.cpp.o -o leetcode   -L/home/logan/Documents/Code/leetcode/cpp/lib  -Wl,-rpath,/home/logan/Documents/Code/leetcode/cpp/lib -lpthread 
