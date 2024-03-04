@@ -1,5 +1,5 @@
 #include "output.hpp"
-#include "linked-list/medium/2.两数相加/solution.cpp"
+#include "solution.cpp"
 
 using namespace std;
 
