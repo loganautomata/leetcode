@@ -1,5 +1,5 @@
 #include "output.hpp"
-#include "./array/easy/1.两数之和/solution.cpp"
+#include "linked-list/medium/2.两数相加/solution.cpp"
 
 using namespace std;
 
@@ -7,10 +7,12 @@ Output output;
 Solution solution;
 
 int main(int, char**){
-    vector<int> nums = {3, 3};
-    int target = 6;
-
-    output.printfArr(solution.twoSum(nums, target));
+    vector<int> l1_arr = {9,9,9,9,9,9,9};
+    vector<int> l2_arr = {9,9,9,9};
+    ListNode *l1 = GenList(l1_arr);
+    ListNode *l2 = GenList(l2_arr);
+    
+    output.PrintfList(solution.addTwoNumbers(l1, l2));
 
     return 0;
 }

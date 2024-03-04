@@ -7,5 +7,6 @@ class Output
 {
 private:
 public:
-    void printfArr(vector<int> array);
+    void PrintfArr(vector<int> array);
+    void PrintfList(ListNode * list);
 };
