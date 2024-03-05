@@ -1,3 +1,12 @@
+/*
+ * @file: include/header.hpp
+ * @breif: leetcode题目调试需要的头文件引入和数据结构
+ * @date: 05/03/2024 17:00
+ * @author: logan
+ * @copyright: www.logan.ren
+*/
+
+
 #pragma once
 
 #include <algorithm>
@@ -5,6 +14,7 @@
 #include <string>
 #include <queue>
 #include <stack>
+#include <unordered_set>
 #include <unordered_map>
 
 using namespace std;

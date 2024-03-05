@@ -1,3 +1,11 @@
+/*
+ * @file: include/output.hpp
+ * @breif: leetcode调试需要的输出类
+ * @date: 05/03/2024 17:01
+ * @author: logan
+ * @copyright: www.logan.ren
+*/
+
 #pragma once
 
 #include <iostream>

@@ -1,10 +1,10 @@
+#include "header.hpp"
+
 /*
  * @lc app=leetcode.cn id=2 lang=cpp
  *
  * [2] 两数相加
  */
-
-#include "header.hpp"
 
 // @lc code=start
 /**
