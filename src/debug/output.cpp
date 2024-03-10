@@ -1,6 +1,6 @@
 #include "output.hpp"
 
-void Output::PrintfArr(vector<int> array) {
+void Output::PrintfArr(vector<int> &array) {
     for (auto i : array) {
         cout << i << " ";
     }
