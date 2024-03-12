@@ -9,11 +9,20 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    vector<int> array;
+    string base_path = "/d2/d3";
 
-    input.ScanfArr(array);
-    int ans = solution.calScore(array);
-    cout << ans << endl;
+    vector<string> path_arr{
+        "/d2/d4/f1",
+        "../d4/f1",
+        "/d1/./f1",
+        "/d1///f1",
+        "/d1/",
+        "///",
+        "/d1/../../d2"};
+
+    for (auto i : solution.regxPath(base_path, path_arr)) {
+        cout << i << endl;
+    }
 
     return 0;
 }
