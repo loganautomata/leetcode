@@ -9,18 +9,9 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    string base_path = "/d2/d3";
+    vector<int> vec_arr = {1, 2, 3, 4};
 
-    vector<string> path_arr{
-        "/d2/d4/f1",
-        "../d4/f1",
-        "/d1/./f1",
-        "/d1///f1",
-        "/d1/",
-        "///",
-        "/d1/../../d2"};
-
-    for (auto i : solution.regxPath(base_path, path_arr)) {
+    for (auto i : vec_arr) {
         cout << i << endl;
     }
 
