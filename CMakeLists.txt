@@ -6,6 +6,8 @@ message(STATUS CMAKE_SOURCE_DIR=${CMAKE_SOURCE_DIR})
 message(STATUS CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR})
 message(STATUS PROJECT_SOURCE_DIR=${PROJECT_SOURCE_DIR})
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
@@ -15,16 +17,22 @@ set(CMAKE_CXX_FLAGS_DEBUG " -std=c++17 -g -ggdb -O0 -Wall -Wno-unused-function -
 set(CMAKE_C_FLAGS_RELEASE " -std=c99 -O3 -Wall -Wno-unused-function -fpic -fPIC")
 set(CMAKE_CXX_FLAGS_RELEASE " -std=c++17 -O3 -Wall -Wno-unused-function -fpic -fPIC")
 
+set(SOLUTION_FOLDER "src/array/easy/1.两数之和")
+
 include_directories(
     include
+    )
+include_directories(
+    ${PROJECT_SOURCE_DIR}/${SOLUTION_FOLDER}
     )
 link_directories(
     lib
     )
 
-aux_source_directory(src SRC_LIST)
+aux_source_directory(src/debug SRC_LIST)
 add_executable(${PROJECT_NAME}
     ${SRC_LIST}
+    ${PROJECT_SOURCE_DIR}/src/main.cpp
     )
 
 target_link_libraries(${PROJECT_NAME}
