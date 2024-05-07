@@ -9,11 +9,9 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    vector<int> arr = {1, 2, 3, 4, 5};
+    vector<int> arr = {0,3,7,2,5,8,4,6,0,1};
 
-    for (auto i : arr) {
-        cout << i << endl;
-    }
+    cout << solution.longestConsecutive(arr) << endl;
 
     return 0;
 }
