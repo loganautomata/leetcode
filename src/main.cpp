@@ -9,9 +9,9 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    vector<int> arr = {0,3,7,2,5,8,4,6,0,1};
+    vector<int> arr = {4,3,2,1,4};
 
-    cout << solution.longestConsecutive(arr) << endl;
+    cout << solution.maxArea(arr) << endl;
 
     return 0;
 }

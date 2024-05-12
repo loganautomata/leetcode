@@ -12,14 +12,14 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 set(CMAKE_C_FLAGS_DEBUG " -std=c99 -g -ggdb -O0 -Wall -Wno-unused-function -fpic -fPIC -D_DEBUG")
-set(CMAKE_CXX_FLAGS_DEBUG " -std=c++17 -g -ggdb -O1 -Wall -Wno-unused-function -fpic -fPIC -D_DEBUG")
+set(CMAKE_CXX_FLAGS_DEBUG " -std=c++17 -g -ggdb -O0 -Wall -Wno-unused-function -fpic -fPIC -D_DEBUG")
 
 set(CMAKE_C_FLAGS_RELEASE " -std=c99 -O3 -Wall -Wno-unused-function -fpic -fPIC")
 set(CMAKE_CXX_FLAGS_RELEASE " -std=c++17 -O3 -Wall -Wno-unused-function -fpic -fPIC")
 
 SET(CMAKE_BUILD_TYPE "Debug")
 
-set(SOLUTION_FOLDER "src/array/medium/128.最长连续序列")
+set(SOLUTION_FOLDER "src/array/medium/11.盛最多水的容器")
 
 include_directories(
     include
