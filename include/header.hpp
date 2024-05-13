@@ -9,6 +9,7 @@
 #pragma once
 
 #include <algorithm>
+#include <cstddef>
 #include <vector>
 #include <string>
 #include <iterator>
@@ -44,7 +45,7 @@ static ListNode *GenList(vector<int> arr) {
     ListNode *head = NULL;
     ListNode *node = NULL;
 
-    for (int i = 0; i < arr.size(); i++) {
+    for (size_t i = 0; i < arr.size(); i++) {
         ListNode *ln = new ListNode(arr[i]);
 
         if (!node) {

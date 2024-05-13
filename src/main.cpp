@@ -9,9 +9,11 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    vector<int> arr = {4,3,2,1,4};
+    vector<int> arr = {1,2,3};
+    string s = "cbaebabacd";
+    string p = "abc";
 
-    cout << solution.maxArea(arr) << endl;
+    cout <<solution.subarraySum(arr, 3) << endl;
 
     return 0;
 }
