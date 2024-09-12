@@ -9,11 +9,11 @@ Output output;
 Solution solution;
 
 int main(int argc, char **argv) {
-    vector<int> arr = {1,2,3};
-    string s = "cbaebabacd";
-    string p = "abc";
+    vector<vector<int>> arr = {{1,2,3},{4,5,6}};
+    vector<int> ans = {1, 2, 3, 6, 9, 8, 7, 4, 5};
+    vector<int> target = solution.rotate(arr);
 
-    cout <<solution.subarraySum(arr, 3) << endl;
+    output.PrintfArr(target);
 
     return 0;
 }

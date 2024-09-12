@@ -19,7 +19,7 @@ set(CMAKE_CXX_FLAGS_RELEASE " -std=c++17 -O3 -Wall -Wno-unused-function -fpic -f
 
 SET(CMAKE_BUILD_TYPE "Debug")
 
-set(SOLUTION_FOLDER "src/array/medium/560.和为-k-的子数组")
+set(SOLUTION_FOLDER "src/test/1")
 
 include_directories(
     include
